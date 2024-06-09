@@ -1,0 +1,142 @@
+[
+    {
+     "id":1,
+     "name":"Rav4 sport",
+     "mainImgPath":"/assets/cars/1.png",
+     "brand":{
+        "name":"Toyota"
+     },
+     "model":{
+        "year":2024
+     },
+     "price":{
+        "currency":"USD",
+        "price":15000
+     },
+     "altImgs":[
+        "/assets/cars/2.png",
+        "/assets/cars/3.png",
+        "/assets/cars/4.png",
+        "/assets/cars/5.png"
+     ],
+     "status":"New",
+     "saller":{
+        "id":1,
+        "name":"Abbas Mahmmoud Alburaee",
+        "phoneNumber":"+967772630622",
+        "Address":"Yemen,Sana'a Hezez street"
+     }
+  },
+  {
+    "id":2,
+    "name":"land Cruiser Prado",
+    "mainImgPath":"/assets/cars/2.png",
+    "brand":{
+       "name":"Toyota"
+    },
+    "model":{
+       "year":2024
+    },
+    "price":{
+       "currency":"USD",
+       "price":20000
+    },
+    "altImgs":[
+       "/assets/cars/2.png",
+       "/assets/cars/3.png",
+       "/assets/cars/6.png",
+       "/assets/cars/5.png"
+    ],
+    "status":"New",
+    "saller":{
+       "id":1,
+       "name":"Abbas Mahmmoud Alburaee",
+       "phoneNumber":"+967772630622",
+       "Address":"Yemen,Sana'a Hezez street"
+    }
+ },
+ {
+   "id":3,
+    "name":"land Cruiser Prado",
+    "mainImgPath":"/assets/cars/2.png",
+    "brand":{
+       "name":"Toyota"
+    },
+    "model":{
+       "year":2023
+    },
+    "price":{
+       "currency":"USD",
+       "price":20000
+    },
+    "altImgs":[
+       "/assets/cars/2.png",
+       "/assets/cars/3.png",
+       "/assets/cars/6.png",
+       "/assets/cars/5.png"
+    ],
+    "status":"Accident",
+    "saller":{
+       "id":1,
+       "name":"Abbas Mahmmoud Alburaee",
+       "phoneNumber":"+967772630622",
+       "Address":"Yemen,Sana'a Hezez street"
+    }
+ },
+ {
+   "id":4,
+    "name":"Hilux",
+    "mainImgPath":"/assets/cars/6.png",
+    "brand":{
+       "name":"Toyota"
+    },
+    "model":{
+       "year":2023
+    },
+    "price":{
+       "currency":"USD",
+       "price":10000
+    },
+    "altImgs":[
+       "/assets/cars/7.png",
+       "/assets/cars/3.png",
+       "/assets/cars/6.png",
+       "/assets/cars/5.png"
+    ],
+    "status":"Accident",
+    "saller":{
+       "id":2,
+       "name":"Ali Mahmmoud Sammer",
+       "phoneNumber":"+967772630621",
+       "Address":"Yemen,Sana'a Hezez street"
+    }
+ },
+ {
+   "id":5,
+    "name":"Hilux",
+    "mainImgPath":"/assets/cars/9.png",
+    "brand":{
+       "name":"Lexus"
+    },
+    "model":{
+       "year":2023
+    },
+    "price":{
+       "currency":"USD",
+       "price":5000
+    },
+    "altImgs":[
+       "/assets/cars/7.png",
+       "/assets/cars/3.png",
+       "/assets/cars/6.png",
+       "/assets/cars/5.png"
+    ],
+    "status":"Accident",
+    "saller":{
+       "id":2,
+       "name":"Ali Mahmmoud Sammer",
+       "phoneNumber":"+967772630621",
+       "Address":"Yemen,Sana'a Hezez street"
+    }
+ }
+]

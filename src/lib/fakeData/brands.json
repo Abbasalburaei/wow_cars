@@ -1,0 +1,30 @@
+[
+    {
+        "text":"Toyota",
+        "value":"Toyota"
+    },
+    {
+        "text":"Tesla",
+        "value":"Tesla"
+    },
+    {
+        "text":"Ford",
+        "value":"Ford"
+    },
+    {
+        "text":"Jeep",
+        "value":"Jeep"
+    },
+    {
+        "text":"Honda",
+        "value":"Honda"
+    },
+    {
+        "text":"BMW",
+        "value":"BMW"
+    },
+    {
+        "text":"Lexus",
+        "value":"Lexus"
+    }
+]

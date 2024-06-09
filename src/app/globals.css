@@ -1,0 +1,54 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+:root{
+  --wow-primary-color:#10ac84;
+  --wow-secondary-color:#1dd1a1;
+  --wow-bg-color:#f5f6fa;
+  --wow-gray-color:#8395a7;
+  --wow-black-color:#353b48;
+  --wow-light-gray-color:#dfe6e9;
+  --wow-primary-text-color:#353b48;
+  --wow-secondary-text-color:#1dd1a1;
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: var('--wow-bg-color');
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.p-button{
+  background-color: var(--wow-primary-color);
+}
+
+.p-radiobutton.p-highlight .p-radiobutton-box {
+  border-color: var(--wow-primary-color) !important;
+  background: var(--wow-primary-color) !important;
+}
+.p-slider .p-slider-handle {
+  border-color: var(--wow-primary-color) !important;;
+}
+.p-slider .p-slider-range {
+  background: var(--wow-primary-color) !important;
+}

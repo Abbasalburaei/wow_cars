@@ -1,0 +1,37 @@
+/* using as css into tsx */
+@layer{
+    .carCard{
+        @apply h-[20rem] sm:w-[20rem] w-full border rounded-lg cursor-pointer shadow-md flex flex-col relative bg-wowLightGray overflow-hidden ;
+    }
+    .carCard::before{
+        content:'';
+        transform: translate(-50%,-50%);
+        @apply absolute h-[.1rem] w-[80%] top-0 left-[50%] bg-wowGray;
+    
+    }
+    .cardHeader{
+        @apply h-[60%] relative w-full  overflow-hidden transition-all  duration-500;
+    }
+
+
+    .cardHeaderBrandTag{
+      @apply absolute left-8 h-12 w-12 bg-black flex justify-center items-center rounded-b-md;
+    }
+
+    .carHeaderTags{
+        @apply flex flex-col z-10 absolute top-2 right-2 gap-2 ;
+    }
+    .carImg{
+        @apply absolute transition-all  duration-500;
+    }
+
+    .cardHeader:hover .carImg {
+        @apply scale-105;
+
+    }
+
+    .cardBody{
+        @apply grow bg-white rounded-b-md flex flex-col p-5 gap-3;
+
+    }
+}

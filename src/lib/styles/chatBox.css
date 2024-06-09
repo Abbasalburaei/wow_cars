@@ -1,0 +1,33 @@
+/* using as global css */
+@layer{
+    .chatBox{
+        @apply fixed  bottom-5 left-10 flex flex-col gap-5;
+    }
+
+
+    .chatBox-list{
+        @apply order-1 h-[30rem] w-[25rem] flex flex-col transition-all duration-500 ease-linear shadow-md  bg-white;
+    }
+
+    .chatBox-list-header{
+        @apply bg-wowPrimary w-full h-[12rem] rounded-t-md;
+      }
+
+    .chatBox-list-content{
+      @apply  w-full p-2 grow overflow-y-auto;
+    }
+
+    .chatBox-list-controls{
+        @apply h-[5rem] w-full p-2;
+    }
+
+
+
+    .chatBox-btn{
+        @apply order-2  rounded-full cursor-pointer select-none shadow-md  transition-all duration-100 ease-linear  flex justify-center items-center bg-wowPrimary h-[5rem] w-[5rem]
+    }
+
+    .chatBox-btn:hover{
+        @apply -translate-y-5
+    }
+}
